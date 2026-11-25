@@ -1,0 +1,5 @@
+{"type": "search", "query": "pricing cached input tokens retrieval cost", "pages": ["https://docs.moss.dev/docs/inference/pricing", "https://docs.moss.dev/docs/pricing", "https://docs.moss.dev/docs/inference/models", "https://docs.moss.dev/docs/inference/bring-your-own-key", "https://docs.moss.dev/docs/inference/retrieval"]}
+{"type": "read", "page": "https://docs.moss.dev/docs/inference/pricing"}
+{"type": "read", "page": "https://docs.moss.dev/docs/pricing"}
+{"type": "read", "page": "https://docs.moss.dev/docs/inference/bring-your-own-key"}
+{"type": "answer", "text": "The job costs $0.665: 1,500,000 uncached input tokens at $0.25/1M = $0.375; 500,000 cached input tokens at $0.03/1M = $0.015; 100,000 output tokens at $1.75/1M = $0.175; 200 retrievals at $0.50/1k = $0.10."}

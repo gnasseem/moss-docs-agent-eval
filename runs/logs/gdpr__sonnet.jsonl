@@ -1,0 +1,11 @@
+{"type": "search", "query": "GDPR compliance EU data region hosting", "pages": ["https://docs.moss.dev/docs/build/data-hydration-sync", "https://docs.moss.dev/docs/founding-agent/pricing", "https://docs.moss.dev/docs/cookbook/crewai", "https://docs.moss.dev/docs/cookbook/airline-customer-agent", "https://docs.moss.dev/docs/cookbook/mortgage-lending-agent"]}
+{"type": "search", "query": "security compliance privacy data residency", "pages": ["https://docs.moss.dev/docs/founding-agent/pricing", "https://docs.moss.dev/docs/pricing", "https://docs.moss.dev/docs/cookbook/airline-customer-agent", "https://docs.moss.dev/docs/integrate/deployment-production", "https://docs.moss.dev/docs/build/data-hydration-sync"]}
+{"type": "read", "page": "https://docs.moss.dev/docs/founding-agent/pricing"}
+{"type": "read", "page": "https://docs.moss.dev/docs/pricing"}
+{"type": "read", "page": "https://docs.moss.dev/docs/integrate/deployment-production"}
+{"type": "read", "page": "https://docs.moss.dev/docs/build/data-hydration-sync"}
+{"type": "read", "page": "https://docs.moss.dev/docs/founding-agent/pricing"}
+{"type": "search", "query": "GDPR", "pages": []}
+{"type": "search", "query": "trust security SOC 2 encryption", "pages": ["https://docs.moss.dev/docs/pricing", "https://docs.moss.dev/docs/api-reference/v1/document-operations/getDocs", "https://docs.moss.dev/docs/founding-agent/portal/create-and-configure", "https://docs.moss.dev/docs/integrate/deployment-production", "https://docs.moss.dev/docs/founding-agent/pricing"]}
+{"type": "read", "page": "https://docs.moss.dev/docs/pricing"}
+{"type": "answer", "text": "The documentation does not say Moss is GDPR compliant, and it names no EU hosting region. GDPR is not mentioned anywhere I found. The only related items are on the Pricing & Limits page: SOC 2, HIPAA and 'Data residency / VPC deploy' are listed as Enterprise-plan only (Developer, Hobbyist (/mo) and Startup (/mo) do not include them), with VPC/on-prem as an add-on. The Plans and pricing page lists 'Advanced compliance requirements' and security reviews under Enterprise. For GDPR status or EU data residency, contact Moss about an Enterprise plan."}

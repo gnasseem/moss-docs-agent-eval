@@ -1,0 +1,3 @@
+{"type": "search", "query": "delete project key revoke token", "pages": ["https://docs.moss.dev/docs/integrations/moss-cli", "https://docs.moss.dev/docs/reference/browser/classes/MossClient", "https://docs.moss.dev/docs/reference/js/classes/MossClient", "https://docs.moss.dev/docs/reference/telemetry", "https://docs.moss.dev/docs/integrate/authentication"]}
+{"type": "read", "page": "https://docs.moss.dev/docs/integrate/authentication"}
+{"type": "answer", "text": "Tokens already issued with a deleted key stop working within about 20 seconds. Deleting a key blocks new tokens right away."}

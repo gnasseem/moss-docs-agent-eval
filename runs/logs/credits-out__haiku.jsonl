@@ -1,0 +1,4 @@
+{"type": "search", "query": "credits run out", "pages": ["https://docs.moss.dev/docs/pricing", "https://docs.moss.dev/docs/inference/pricing", "https://docs.moss.dev/docs/api-reference/v1/web-sources/createWebSource", "https://docs.moss.dev/docs/inference/bring-your-own-key", "https://docs.moss.dev/docs/api-reference/v1/web-sources/updateWebSource"]}
+{"type": "read", "page": "https://docs.moss.dev/docs/inference/pricing"}
+{"type": "read", "page": "https://docs.moss.dev/docs/pricing"}
+{"type": "answer", "text": "HTTP 429 with error code usage_limit_exceeded. Requests fail with this until credits are added (Inference pricing page: \"When your credits run out, requests return 429 usage_limit_exceeded until you add credits.\")."}

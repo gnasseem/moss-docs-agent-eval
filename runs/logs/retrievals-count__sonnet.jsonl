@@ -1,0 +1,5 @@
+{"type": "search", "query": "Moss Inference X-Moss-Indexes moss_search billing retrievals", "pages": ["https://docs.moss.dev/docs/inference/moss-search", "https://docs.moss.dev/docs/inference/pricing", "https://docs.moss.dev/docs/inference/retrieval", "https://docs.moss.dev/docs/inference/bring-your-own-key", "https://docs.moss.dev/docs/inference/overview"]}
+{"type": "read", "page": "https://docs.moss.dev/docs/inference/pricing"}
+{"type": "read", "page": "https://docs.moss.dev/docs/inference/retrieval"}
+{"type": "read", "page": "https://docs.moss.dev/docs/inference/moss-search"}
+{"type": "answer", "text": "3 retrievals are billed. The X-Moss-Indexes header makes one search before the model runs (one retrieval, however many indexes it names), and each moss_search call that an index answered is one more retrieval, however many indexes the tool names (two calls = 2). Total 1 + 2 = 3, at $0.50 per 1k retrievals (about $0.0015)."}

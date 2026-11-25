@@ -1,0 +1,4 @@
+{"type": "search", "query": "Startup plan price per month", "pages": ["https://docs.moss.dev/docs/pricing", "https://docs.moss.dev/docs/api-reference/v1/web-sources/createWebSource", "https://docs.moss.dev/docs/inference/pricing", "https://docs.moss.dev/docs/founding-agent/pricing", "https://docs.moss.dev/docs/inference/moss-search"]}
+{"type": "read", "page": "https://docs.moss.dev/docs/pricing"}
+{"type": "read", "page": "https://docs.moss.dev/docs/founding-agent/pricing"}
+{"type": "answer", "text": "The docs do not give a euro price for the Startup plan. The Pricing & Limits page (https://docs.moss.dev/docs/pricing) lists the Startup plan at $200 per month (USD), with $50 of monthly included credits. No euro figure or exchange rate appears in the documentation."}

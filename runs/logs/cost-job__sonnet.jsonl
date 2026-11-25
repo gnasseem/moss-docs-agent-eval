@@ -1,0 +1,5 @@
+{"type": "search", "query": "fastlane-1 pricing input output cached tokens retrievals", "pages": ["https://docs.moss.dev/docs/inference/pricing", "https://docs.moss.dev/docs/inference/models", "https://docs.moss.dev/docs/pricing", "https://docs.moss.dev/docs/inference/overview", "https://docs.moss.dev/docs/inference/retrieval"]}
+{"type": "search", "query": "Moss key pricing", "pages": ["https://docs.moss.dev/docs/pricing", "https://docs.moss.dev/docs/inference/bring-your-own-key", "https://docs.moss.dev/docs/inference/models", "https://docs.moss.dev/docs/inference/pricing", "https://docs.moss.dev/docs/inference/quickstart"]}
+{"type": "read", "page": "https://docs.moss.dev/docs/inference/pricing"}
+{"type": "read", "page": "https://docs.moss.dev/docs/inference/bring-your-own-key"}
+{"type": "answer", "text": "Total: $0.665. On moss/fastlane-1 (Moss key): uncached input 1,500,000 tokens x $0.25/1M = $0.375; cached input 500,000 x $0.03/1M = $0.015; output 100,000 x $1.75/1M = $0.175; retrievals 200 x $0.50/1k = $0.10. (Cached tokens are billed at the cached price, the rest of the input at the input price.)"}

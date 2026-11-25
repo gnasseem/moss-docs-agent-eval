@@ -1,0 +1,3 @@
+{"type": "search", "query": "Moss Inference minimum credit purchase", "pages": ["https://docs.moss.dev/docs/inference/pricing", "https://docs.moss.dev/docs/inference/sdks", "https://docs.moss.dev/docs/reference/js/interfaces/QueryOptions", "https://docs.moss.dev/docs/founding-agent/embed/booking", "https://docs.moss.dev/docs/reference/js/web-sources"]}
+{"type": "read", "page": "https://docs.moss.dev/docs/inference/pricing"}
+{"type": "answer", "text": "The minimum credit purchase for Moss Inference is $5, bought on the Billing page of the Moss portal (portal.usemoss.dev). Only organization owners can buy credits."}

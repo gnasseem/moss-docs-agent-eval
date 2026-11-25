@@ -1,0 +1,3 @@
+{"type": "search", "query": "initUpload documents per build limit", "pages": ["https://docs.moss.dev/docs/api-reference/v1/index-management/startBuild", "https://docs.moss.dev/docs/api-reference/v1/index-management/initUpload", "https://docs.moss.dev/docs/api-reference/v1/getting-started/overview", "https://docs.moss.dev/docs/api-reference/v1/web-sources/createWebSource", "https://docs.moss.dev/docs/inference/overview"]}
+{"type": "read", "page": "https://docs.moss.dev/docs/api-reference/v1/index-management/initUpload"}
+{"type": "answer", "text": "A single index build through initUpload can take up to 100,000 documents. docCount must be an integer from 1 to 100,000, and a larger value returns 400."}

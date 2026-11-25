@@ -1,0 +1,3 @@
+{"type": "search", "query": "requests per minute rate limit fastlane-1 burst sustained", "pages": ["https://docs.moss.dev/docs/inference/errors-and-limits", "https://docs.moss.dev/docs/api-reference/v1/inference/chat-completions", "https://docs.moss.dev/docs/inference/pricing", "https://docs.moss.dev/docs/integrate/memory-sizing", "https://docs.moss.dev/docs/inference/openai-compatibility"]}
+{"type": "read", "page": "https://docs.moss.dev/docs/inference/errors-and-limits"}
+{"type": "answer", "text": "moss/fastlane-1 is limited to 120 requests per minute sustained and 10 requests per minute burst, per project (Errors and limits page). Going over returns 429 rate_limit_exceeded."}

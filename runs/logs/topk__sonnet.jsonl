@@ -1,0 +1,4 @@
+{"type": "search", "query": "moss_search tool top_k default maximum Moss Inference", "pages": ["https://docs.moss.dev/docs/inference/moss-search", "https://docs.moss.dev/docs/cookbook/pydantic-ai", "https://docs.moss.dev/docs/api-reference/v1/inference/chat-completions", "https://docs.moss.dev/docs/api-reference/v1/inference/responses", "https://docs.moss.dev/docs/inference/errors-and-limits"]}
+{"type": "read", "page": "https://docs.moss.dev/docs/inference/moss-search"}
+{"type": "read", "page": "https://docs.moss.dev/docs/inference/errors-and-limits"}
+{"type": "answer", "text": "In the moss_search tool entry, top_k is optional: it sets the passages returned for each search. The default is 5, and the allowed range is 1 to 20, so the largest value is 20."}

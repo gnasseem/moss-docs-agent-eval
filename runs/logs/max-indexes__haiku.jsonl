@@ -1,0 +1,5 @@
+{"type": "search", "query": "how many indexes can a single Moss Inference request search", "pages": ["https://docs.moss.dev/docs/inference/moss-search", "https://docs.moss.dev/docs/inference/errors-and-limits", "https://docs.moss.dev/docs/inference/overview", "https://docs.moss.dev/docs/integrate/multi-index-search", "https://docs.moss.dev/docs/inference/retrieval"]}
+{"type": "read", "page": "https://docs.moss.dev/docs/inference/errors-and-limits"}
+{"type": "read", "page": "https://docs.moss.dev/docs/inference/moss-search"}
+{"type": "read", "page": "https://docs.moss.dev/docs/inference/overview"}
+{"type": "answer", "text": "A single Moss Inference request can search at most 32 indexes. The limit counts the indexes named in the X-Moss-Indexes header and in a moss_search tool together, and it is the same for moss/fastlane-1 and vendor models (Errors and limits; a request over 32 index names returns 400)."}

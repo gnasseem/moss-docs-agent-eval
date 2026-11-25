@@ -1,0 +1,4 @@
+{"type": "search", "query": "Startup plan price euros per month", "pages": ["https://docs.moss.dev/docs/pricing", "https://docs.moss.dev/docs/api-reference/v1/web-sources/createWebSource", "https://docs.moss.dev/docs/inference/pricing", "https://docs.moss.dev/docs/founding-agent/pricing", "https://docs.moss.dev/docs/inference/moss-search"]}
+{"type": "read", "page": "https://docs.moss.dev/docs/pricing"}
+{"type": "read", "page": "https://docs.moss.dev/docs/founding-agent/pricing"}
+{"type": "answer", "text": "The documentation does not give a euro price. Moss pricing is listed only in US dollars: the Startup plan is $200 per month (includes $50 of monthly credits, up to 150 concurrent sessions, 5,000 pages per crawl run, email support). I cannot state a euro figure from the docs; any conversion would depend on the current exchange rate. (Founding Agent Starter is a separate product at $499/mo, also in USD.)"}

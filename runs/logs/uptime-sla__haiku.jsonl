@@ -1,0 +1,7 @@
+{"type": "search", "query": "Moss Inference SLA uptime", "pages": ["https://docs.moss.dev/docs/founding-agent/pricing", "https://docs.moss.dev/docs/cookbook/candidate-screening-agent", "https://docs.moss.dev/docs/inference/sdks", "https://docs.moss.dev/docs/inference/overview", "https://docs.moss.dev/docs/inference/openai-compatibility"]}
+{"type": "read", "page": "https://docs.moss.dev/docs/inference/overview"}
+{"type": "read", "page": "https://docs.moss.dev/docs/founding-agent/pricing"}
+{"type": "search", "query": "uptime availability SLA percent", "pages": ["https://docs.moss.dev/docs/founding-agent/pricing", "https://docs.moss.dev/docs/reference/errors", "https://docs.moss.dev/docs/cookbook/candidate-screening-agent", "https://docs.moss.dev/docs/changelog"]}
+{"type": "read", "page": "https://docs.moss.dev/docs/reference/errors"}
+{"type": "read", "page": "https://docs.moss.dev/docs/changelog"}
+{"type": "answer", "text": "The Moss docs do not state an uptime percentage for Moss Inference, so there is no SLA figure to quote. The Inference overview (https://docs.moss.dev/docs/inference/overview) gives latency only: under 200 ms time to first token on moss/fastlane-1, and Moss Inference is in private beta. The pricing page (https://docs.moss.dev/docs/founding-agent/pricing) mentions \"SLA guarantees\" for the Enterprise plan but gives no percentage. Searches for uptime, availability and SLA found nothing further. For a committed figure, ask Moss directly through the portal at https://portal.usemoss.dev/."}

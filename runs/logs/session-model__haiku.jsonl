@@ -1,0 +1,3 @@
+{"type": "search", "query": "default embedding model session model_id", "pages": ["https://docs.moss.dev/docs/reference/elixir/classes/Session", "https://docs.moss.dev/docs/integrate/sessions", "https://docs.moss.dev/docs/reference/python/sessions", "https://docs.moss.dev/docs/reference/elixir/classes/Client", "https://docs.moss.dev/docs/reference/python/classes/SessionIndex"]}
+{"type": "read", "page": "https://docs.moss.dev/docs/integrate/sessions"}
+{"type": "answer", "text": "The default is \"moss-minilm\" (set by the model_id argument to session(); the other options are \"moss-mediumlm\" and \"custom\"). Docs: https://docs.moss.dev/docs/integrate/sessions"}

@@ -1,0 +1,3 @@
+{"type": "search", "query": "request body size limit 10 MB", "pages": ["https://docs.moss.dev/docs/inference/errors-and-limits", "https://docs.moss.dev/docs/cookbook/postgres-sync", "https://docs.moss.dev/docs/api-reference/v1/web-sources/createWebSource", "https://docs.moss.dev/docs/pricing", "https://docs.moss.dev/docs/reference/js/web-sources"]}
+{"type": "read", "page": "https://docs.moss.dev/docs/inference/errors-and-limits"}
+{"type": "answer", "text": "No, the limit is 4 MB, not 10 MB. The request body limit is 4 MB on both moss/fastlane-1 and vendor models. A body over 4 MB returns HTTP 413 with type invalid_request_error. The fix is to send a smaller body."}

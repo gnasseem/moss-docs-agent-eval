@@ -1,0 +1,5 @@
+{"type": "search", "query": "retrievals count", "pages": ["https://docs.moss.dev/docs/inference/retrieval", "https://docs.moss.dev/docs/inference/pricing", "https://docs.moss.dev/docs/inference/bring-your-own-key", "https://docs.moss.dev/docs/inference/moss-search", "https://docs.moss.dev/docs/reference/c/api"]}
+{"type": "read", "page": "https://docs.moss.dev/docs/inference/pricing"}
+{"type": "read", "page": "https://docs.moss.dev/docs/inference/moss-search"}
+{"type": "read", "page": "https://docs.moss.dev/docs/inference/retrieval"}
+{"type": "answer", "text": "3 retrievals are billed: 1 for the X-Moss-Indexes search that runs before the model, plus 1 for each of the 2 answered moss_search calls. At $0.50 per 1k retrievals, that is $0.0015 for the request."}

@@ -1,0 +1,4 @@
+{"type": "search", "query": "session pricing per minute voice", "pages": ["https://docs.moss.dev/docs/pricing", "https://docs.moss.dev/docs/inference/pricing", "https://docs.moss.dev/docs/cookbook/generalist-voice-agent", "https://docs.moss.dev/docs/inference/errors-and-limits", "https://docs.moss.dev/docs/cookbook/candidate-screening-agent"]}
+{"type": "read", "page": "https://docs.moss.dev/docs/pricing"}
+{"type": "read", "page": "https://docs.moss.dev/docs/inference/pricing"}
+{"type": "answer", "text": "20 voice calls x 15 session minutes = 300 session minutes. At $0.02 per Moss Session minute (Conversational Memory rate, docs.moss.dev/docs/pricing), that is $6.00."}

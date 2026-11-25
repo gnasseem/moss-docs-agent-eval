@@ -1,0 +1,11 @@
+{"type": "search", "query": "hybrid search alpha", "pages": ["https://docs.moss.dev/docs/reference/python/hybrid-search", "https://docs.moss.dev/docs/integrate/hybrid-search", "https://docs.moss.dev/docs/reference/js/hybrid-search", "https://docs.moss.dev/docs/integrate/retrieval", "https://docs.moss.dev/docs/reference/js/interfaces/QueryOptions"]}
+{"type": "read", "page": "https://docs.moss.dev/docs/integrate/hybrid-search"}
+{"type": "read", "page": "https://docs.moss.dev/docs/reference/python/hybrid-search"}
+{"type": "read", "page": "https://docs.moss.dev/docs/reference/js/interfaces/QueryOptions"}
+{"type": "read", "page": "https://docs.moss.dev/docs/integrate/retrieval"}
+{"type": "read", "page": "https://docs.moss.dev/docs/reference/js/hybrid-search"}
+{"type": "search", "query": "alpha out of range clamp invalid value", "pages": ["https://docs.moss.dev/docs/reference/errors", "https://docs.moss.dev/docs/integrate/metadata-filtering", "https://docs.moss.dev/docs/reference/swift/types", "https://docs.moss.dev/docs/reference/python/web-sources", "https://docs.moss.dev/docs/changelog"]}
+{"type": "read", "page": "https://docs.moss.dev/docs/reference/errors"}
+{"type": "read", "page": "https://docs.moss.dev/docs/changelog"}
+{"type": "read", "page": "https://docs.moss.dev/docs/changelog"}
+{"type": "answer", "text": "The docs do not say what Moss does with alpha above 1, so I can't confirm it clamps, errors or extrapolates. alpha is documented only on a 0.0 to 1.0 scale: 1.0 = pure semantic (embeddings only), 0.0 = pure keyword (BM25 only), values in between blend the two, default 0.8 (semantic-heavy). One SDK changelog entry describes query's alpha as 'from 0 to 1'. The only documented validation is that non-finite alpha (NaN, infinities) is rejected with an error. Also, alpha is not a keyword multiplier: higher alpha leans toward semantic, so alpha=2.0 would not make keyword matching count double, and it would not be a documented way to boost keywords. To weight keywords more, lower alpha, e.g. 0.2 to 0.5 (docs example: alpha=0.2 for exact SKU matches; 0.6 is a 60/40 semantic/keyword blend). Use a value between 0 and 1."}

@@ -1,0 +1,4 @@
+{"type": "search", "query": "hybrid search alpha", "pages": ["https://docs.moss.dev/docs/reference/python/hybrid-search", "https://docs.moss.dev/docs/integrate/hybrid-search", "https://docs.moss.dev/docs/reference/js/hybrid-search", "https://docs.moss.dev/docs/integrate/retrieval", "https://docs.moss.dev/docs/reference/js/interfaces/QueryOptions"]}
+{"type": "read", "page": "https://docs.moss.dev/docs/integrate/hybrid-search"}
+{"type": "read", "page": "https://docs.moss.dev/docs/reference/python/hybrid-search"}
+{"type": "answer", "text": "The default alpha is 0.8, which favours semantic (embedding) search. alpha 1.0 is pure semantic, 0.0 is pure keyword (BM25), and values in between blend the two."}

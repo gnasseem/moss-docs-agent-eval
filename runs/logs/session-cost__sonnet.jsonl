@@ -1,0 +1,4 @@
+{"type": "search", "query": "session time pricing cost per minute", "pages": ["https://docs.moss.dev/docs/pricing", "https://docs.moss.dev/docs/inference/pricing", "https://docs.moss.dev/docs/integrate/memory-sizing", "https://docs.moss.dev/docs/inference/errors-and-limits", "https://docs.moss.dev/docs/cookbook/postgres-sync"]}
+{"type": "read", "page": "https://docs.moss.dev/docs/pricing"}
+{"type": "read", "page": "https://docs.moss.dev/docs/inference/pricing"}
+{"type": "answer", "text": "Moss Session is billed at $0.02 per session minute. 20 sessions x 15 minutes = 300 session minutes, so 300 x $0.02 = $6.00 in session time. (This is paid from credits; the Hobbyist plan includes $10/mo credits and allows 10 concurrent sessions, Startup includes $50/mo and up to 150, so 20 concurrent sessions needs Startup or higher.)"}

@@ -1,0 +1,4 @@
+{"type": "search", "query": "default embedding model session model_id", "pages": ["https://docs.moss.dev/docs/reference/elixir/classes/Session", "https://docs.moss.dev/docs/integrate/sessions", "https://docs.moss.dev/docs/reference/python/sessions", "https://docs.moss.dev/docs/reference/elixir/classes/Client", "https://docs.moss.dev/docs/reference/python/classes/SessionIndex"]}
+{"type": "read", "page": "https://docs.moss.dev/docs/integrate/sessions"}
+{"type": "read", "page": "https://docs.moss.dev/docs/reference/python/sessions"}
+{"type": "answer", "text": "A session defaults to \"moss-minilm\" when you pass no model_id (other options: \"moss-mediumlm\" or \"custom\"). The exception is when it loads an existing cloud index or disk snapshot: it then takes that index/snapshots stored model (in Python/Elixir, omit model_id when resuming to adopt it; passing a different one raises ValueError / :invalid_argument). session.model_id reports the model in use."}

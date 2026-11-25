@@ -1,0 +1,4 @@
+{"type": "search", "query": "cached input tokens price per million moss/fastlane-1", "pages": ["https://docs.moss.dev/docs/inference/pricing", "https://docs.moss.dev/docs/inference/models", "https://docs.moss.dev/docs/pricing", "https://docs.moss.dev/docs/inference/overview", "https://docs.moss.dev/docs/api-reference/v1/inference/chat-completions"]}
+{"type": "read", "page": "https://docs.moss.dev/docs/inference/pricing"}
+{"type": "read", "page": "https://docs.moss.dev/docs/inference/models"}
+{"type": "answer", "text": "Moss charges $0.03 per 1M cached input tokens on moss/fastlane-1 (regular input is $0.25 per 1M, output $1.75 per 1M)."}
